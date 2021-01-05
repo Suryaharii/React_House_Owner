@@ -2,9 +2,9 @@ import './header.css';
 import React, {useState} from 'react';
 function Header()
 {
-    const[sidebar_var,setsidebar_var] = useState('sidebar');  
+   // const[sidebar_var,setsidebar_var] = useState('sidebar');  
     return(
-       <nav id={sidebar_var} className="active">
+       <nav id="sidebar">
            <div className="sidebar-header">
                <h3>#logo</h3>
            </div>
