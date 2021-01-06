@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <>
-      <div style={{ position: "absolute", marginLeft: sidebar_var.marginLeft, zIndex: 10 }}>
+      <div style={{ position: "absolute", marginLeft: sidebar_var.marginLeft, zIndex: 10, transition: "all 0.3s" }}>
         <button type="button" id="sidebarCollapse" class="btn btn-info" onClick={onclickHandler}>
           <i class="fa fa-align-left"></i>
         </button>
